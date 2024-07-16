@@ -13,7 +13,7 @@ const AboutUs = () => {
   return (
     <Container>
       <Box sx={{ textAlign: 'center', my: 4 }}>
-        <img src={aboutus1} alt="Top Image" style={{ width: '100%', height: 'auto' }} />
+        <img src={aboutus1} alt="" style={{ width: '100%', height: 'auto' }} />
       </Box>
 
       <Grid container spacing={2} alignItems="center">
@@ -26,7 +26,7 @@ const AboutUs = () => {
           </Typography>
         </Grid>
         <Grid item xs={12} sm={4}>
-          <img src={aboutus3} alt="Image 1" style={{ width: '100%', height: 'auto' }} />
+          <img src={aboutus3} alt="" style={{ width: '100%', height: 'auto' }} />
         </Grid>
       </Grid>
 
@@ -34,7 +34,7 @@ const AboutUs = () => {
 
       <Grid container spacing={2} alignItems="center">
         <Grid item xs={12} sm={4}>
-          <img src={background3} alt="Image 2" style={{ width: '100%', height: 'auto' }} />
+          <img src={background3} alt="" style={{ width: '100%', height: 'auto' }} />
         </Grid>
         <Grid item xs={12} sm={8}>
           <Typography variant="h4" gutterBottom>Misiunea</Typography>
@@ -56,7 +56,7 @@ const AboutUs = () => {
           </Typography>
         </Grid>
         <Grid item xs={12} sm={4}>
-          <img src={aboutus4} alt="Image 3" style={{ width: '100%', height: 'auto' }} />
+          <img src={aboutus4} alt="" style={{ width: '100%', height: 'auto' }} />
         </Grid>
       </Grid>
 
@@ -64,7 +64,7 @@ const AboutUs = () => {
 
       <Grid container spacing={4} alignItems="center">
         <Grid item xs={12} sm={6}>
-          <Avatar alt="Denisa" src={Denisa} sx={{ width: 120, height: 120, mx: 'auto' }} />
+          <Avatar src={Denisa} alt="Denisa"  sx={{ width: 120, height: 120, mx: 'auto' }} />
           <Typography variant="h5" align="center" gutterBottom>Denisa</Typography>
           <Typography variant="body1" align="center" gutterBottom>
           Denisa - Expert Make-up Artist
@@ -75,7 +75,7 @@ const AboutUs = () => {
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Avatar alt="Mădălina" src={mada} sx={{ width: 120, height: 120, mx: 'auto' }} />
+          <Avatar src={mada} alt="Mădălina"  sx={{ width: 120, height: 120, mx: 'auto' }} />
           <Typography variant="h5" align="center" gutterBottom>Mădălina</Typography>
           <Typography variant="body1" align="center" gutterBottom>
           Mădălina - Specialist în Îngrijirea Unghiilor și Coafuri
